@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		412F90F414C4C59500BAA47D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412F90F314C4C59500BAA47D /* UIKit.framework */; };
+		412F90F614C4C59500BAA47D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412F90F514C4C59500BAA47D /* Foundation.framework */; };
+		412F90F814C4C59500BAA47D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412F90F714C4C59500BAA47D /* CoreGraphics.framework */; };
+		412F90FE14C4C59500BAA47D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 412F90FC14C4C59500BAA47D /* InfoPlist.strings */; };
+		412F910014C4C59500BAA47D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 412F90FF14C4C59500BAA47D /* main.m */; };
+		412F910414C4C59600BAA47D /* HubSpotLandingsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 412F910314C4C59600BAA47D /* HubSpotLandingsAppDelegate.m */; };
+		412F910714C4C59600BAA47D /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412F910514C4C59600BAA47D /* MainWindow.xib */; };
+		412F910A14C4C59600BAA47D /* HubSpotLandingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 412F910914C4C59600BAA47D /* HubSpotLandingsViewController.m */; };
+		412F910D14C4C59600BAA47D /* HubSpotLandingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 412F910B14C4C59600BAA47D /* HubSpotLandingsViewController.xib */; };
+		412F911514C4C59600BAA47D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412F911414C4C59600BAA47D /* SenTestingKit.framework */; };
+		412F911614C4C59600BAA47D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412F90F314C4C59500BAA47D /* UIKit.framework */; };
+		412F911714C4C59600BAA47D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412F90F514C4C59500BAA47D /* Foundation.framework */; };
+		412F911814C4C59600BAA47D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 412F90F714C4C59500BAA47D /* CoreGraphics.framework */; };
+		412F912014C4C59600BAA47D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 412F911E14C4C59600BAA47D /* InfoPlist.strings */; };
+		412F912214C4C59600BAA47D /* HubSpotLandingsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 412F912114C4C59600BAA47D /* HubSpotLandingsTests.h */; };
+		412F912414C4C59600BAA47D /* HubSpotLandingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 412F912314C4C59600BAA47D /* HubSpotLandingsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		412F911914C4C59600BAA47D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 412F90E614C4C59500BAA47D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 412F90EE14C4C59500BAA47D;
+			remoteInfo = HubSpotLandings;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		412F90EF14C4C59500BAA47D /* HubSpotLandings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HubSpotLandings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		412F90F314C4C59500BAA47D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		412F90F514C4C59500BAA47D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		412F90F714C4C59500BAA47D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		412F90FB14C4C59500BAA47D /* HubSpotLandings-Info.plist */ = {isa = PBXFileReference; path = "HubSpotLandings-Info.plist"; sourceTree = "<group>"; };
+		412F90FD14C4C59500BAA47D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		412F90FF14C4C59500BAA47D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		412F910114C4C59500BAA47D /* HubSpotLandings-Prefix.pch */ = {isa = PBXFileReference; path = "HubSpotLandings-Prefix.pch"; sourceTree = "<group>"; };
+		412F910214C4C59500BAA47D /* HubSpotLandingsAppDelegate.h */ = {isa = PBXFileReference; path = HubSpotLandingsAppDelegate.h; sourceTree = "<group>"; };
+		412F910314C4C59600BAA47D /* HubSpotLandingsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HubSpotLandingsAppDelegate.m; sourceTree = "<group>"; };
+		412F910614C4C59600BAA47D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		412F910814C4C59600BAA47D /* HubSpotLandingsViewController.h */ = {isa = PBXFileReference; path = HubSpotLandingsViewController.h; sourceTree = "<group>"; };
+		412F910914C4C59600BAA47D /* HubSpotLandingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HubSpotLandingsViewController.m; sourceTree = "<group>"; };
+		412F910C14C4C59600BAA47D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HubSpotLandingsViewController.xib; sourceTree = "<group>"; };
+		412F911314C4C59600BAA47D /* HubSpotLandingsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HubSpotLandingsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		412F911414C4C59600BAA47D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		412F911D14C4C59600BAA47D /* HubSpotLandingsTests-Info.plist */ = {isa = PBXFileReference; path = "HubSpotLandingsTests-Info.plist"; sourceTree = "<group>"; };
+		412F911F14C4C59600BAA47D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		412F912114C4C59600BAA47D /* HubSpotLandingsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HubSpotLandingsTests.h; sourceTree = "<group>"; };
+		412F912314C4C59600BAA47D /* HubSpotLandingsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HubSpotLandingsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		412F90EC14C4C59500BAA47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412F90F414C4C59500BAA47D /* UIKit.framework in Frameworks */,
+				412F90F614C4C59500BAA47D /* Foundation.framework in Frameworks */,
+				412F90F814C4C59500BAA47D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412F910F14C4C59600BAA47D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412F911514C4C59600BAA47D /* SenTestingKit.framework in Frameworks */,
+				412F911614C4C59600BAA47D /* UIKit.framework in Frameworks */,
+				412F911714C4C59600BAA47D /* Foundation.framework in Frameworks */,
+				412F911814C4C59600BAA47D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		412F90E414C4C59500BAA47D = {
+			isa = PBXGroup;
+			children = (
+				412F90F914C4C59500BAA47D /* HubSpotLandings */,
+				412F911B14C4C59600BAA47D /* HubSpotLandingsTests */,
+				412F90F214C4C59500BAA47D /* Frameworks */,
+				412F90F014C4C59500BAA47D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		412F90F014C4C59500BAA47D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				412F90EF14C4C59500BAA47D /* HubSpotLandings.app */,
+				412F911314C4C59600BAA47D /* HubSpotLandingsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		412F90F214C4C59500BAA47D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				412F90F314C4C59500BAA47D /* UIKit.framework */,
+				412F90F514C4C59500BAA47D /* Foundation.framework */,
+				412F90F714C4C59500BAA47D /* CoreGraphics.framework */,
+				412F911414C4C59600BAA47D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		412F90F914C4C59500BAA47D /* HubSpotLandings */ = {
+			isa = PBXGroup;
+			children = (
+				412F910214C4C59500BAA47D /* HubSpotLandingsAppDelegate.h */,
+				412F910314C4C59600BAA47D /* HubSpotLandingsAppDelegate.m */,
+				412F910514C4C59600BAA47D /* MainWindow.xib */,
+				412F910814C4C59600BAA47D /* HubSpotLandingsViewController.h */,
+				412F910914C4C59600BAA47D /* HubSpotLandingsViewController.m */,
+				412F910B14C4C59600BAA47D /* HubSpotLandingsViewController.xib */,
+				412F90FA14C4C59500BAA47D /* Supporting Files */,
+			);
+			path = HubSpotLandings;
+			sourceTree = "<group>";
+		};
+		412F90FA14C4C59500BAA47D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				412F90FB14C4C59500BAA47D /* HubSpotLandings-Info.plist */,
+				412F90FC14C4C59500BAA47D /* InfoPlist.strings */,
+				412F90FF14C4C59500BAA47D /* main.m */,
+				412F910114C4C59500BAA47D /* HubSpotLandings-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		412F911B14C4C59600BAA47D /* HubSpotLandingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				412F912114C4C59600BAA47D /* HubSpotLandingsTests.h */,
+				412F912314C4C59600BAA47D /* HubSpotLandingsTests.m */,
+				412F911C14C4C59600BAA47D /* Supporting Files */,
+			);
+			path = HubSpotLandingsTests;
+			sourceTree = "<group>";
+		};
+		412F911C14C4C59600BAA47D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				412F911D14C4C59600BAA47D /* HubSpotLandingsTests-Info.plist */,
+				412F911E14C4C59600BAA47D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		412F90EE14C4C59500BAA47D /* HubSpotLandings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412F912714C4C59600BAA47D /* Build configuration list for PBXNativeTarget "HubSpotLandings" */;
+			buildPhases = (
+				412F90EB14C4C59500BAA47D /* Sources */,
+				412F90EC14C4C59500BAA47D /* Frameworks */,
+				412F90ED14C4C59500BAA47D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HubSpotLandings;
+			productName = HubSpotLandings;
+			productReference = 412F90EF14C4C59500BAA47D /* HubSpotLandings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		412F911214C4C59600BAA47D /* HubSpotLandingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 412F912A14C4C59600BAA47D /* Build configuration list for PBXNativeTarget "HubSpotLandingsTests" */;
+			buildPhases = (
+				412F910E14C4C59600BAA47D /* Sources */,
+				412F910F14C4C59600BAA47D /* Frameworks */,
+				412F911014C4C59600BAA47D /* Resources */,
+				412F911114C4C59600BAA47D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				412F911A14C4C59600BAA47D /* PBXTargetDependency */,
+			);
+			name = HubSpotLandingsTests;
+			productName = HubSpotLandingsTests;
+			productReference = 412F911314C4C59600BAA47D /* HubSpotLandingsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		412F90E614C4C59500BAA47D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Bowdoin College";
+			};
+			buildConfigurationList = 412F90E914C4C59500BAA47D /* Build configuration list for PBXProject "HubSpotLandings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 412F90E414C4C59500BAA47D;
+			productRefGroup = 412F90F014C4C59500BAA47D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				412F90EE14C4C59500BAA47D /* HubSpotLandings */,
+				412F911214C4C59600BAA47D /* HubSpotLandingsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		412F90ED14C4C59500BAA47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412F90FE14C4C59500BAA47D /* InfoPlist.strings in Resources */,
+				412F910714C4C59600BAA47D /* MainWindow.xib in Resources */,
+				412F910D14C4C59600BAA47D /* HubSpotLandingsViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412F911014C4C59600BAA47D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412F912014C4C59600BAA47D /* InfoPlist.strings in Resources */,
+				412F912214C4C59600BAA47D /* HubSpotLandingsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		412F911114C4C59600BAA47D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		412F90EB14C4C59500BAA47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412F910014C4C59500BAA47D /* main.m in Sources */,
+				412F910414C4C59600BAA47D /* HubSpotLandingsAppDelegate.m in Sources */,
+				412F910A14C4C59600BAA47D /* HubSpotLandingsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		412F910E14C4C59600BAA47D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				412F912414C4C59600BAA47D /* HubSpotLandingsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		412F911A14C4C59600BAA47D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 412F90EE14C4C59500BAA47D /* HubSpotLandings */;
+			targetProxy = 412F911914C4C59600BAA47D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		412F90FC14C4C59500BAA47D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				412F90FD14C4C59500BAA47D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		412F910514C4C59600BAA47D /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				412F910614C4C59600BAA47D /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		412F910B14C4C59600BAA47D /* HubSpotLandingsViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				412F910C14C4C59600BAA47D /* en */,
+			);
+			name = HubSpotLandingsViewController.xib;
+			sourceTree = "<group>";
+		};
+		412F911E14C4C59600BAA47D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				412F911F14C4C59600BAA47D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		412F912514C4C59600BAA47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		412F912614C4C59600BAA47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		412F912814C4C59600BAA47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HubSpotLandings/HubSpotLandings-Prefix.pch";
+				INFOPLIST_FILE = "HubSpotLandings/HubSpotLandings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		412F912914C4C59600BAA47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HubSpotLandings/HubSpotLandings-Prefix.pch";
+				INFOPLIST_FILE = "HubSpotLandings/HubSpotLandings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		412F912B14C4C59600BAA47D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HubSpotLandings.app/HubSpotLandings";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HubSpotLandings/HubSpotLandings-Prefix.pch";
+				INFOPLIST_FILE = "HubSpotLandingsTests/HubSpotLandingsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		412F912C14C4C59600BAA47D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HubSpotLandings.app/HubSpotLandings";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HubSpotLandings/HubSpotLandings-Prefix.pch";
+				INFOPLIST_FILE = "HubSpotLandingsTests/HubSpotLandingsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		412F90E914C4C59500BAA47D /* Build configuration list for PBXProject "HubSpotLandings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412F912514C4C59600BAA47D /* Debug */,
+				412F912614C4C59600BAA47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		412F912714C4C59600BAA47D /* Build configuration list for PBXNativeTarget "HubSpotLandings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412F912814C4C59600BAA47D /* Debug */,
+				412F912914C4C59600BAA47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		412F912A14C4C59600BAA47D /* Build configuration list for PBXNativeTarget "HubSpotLandingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				412F912B14C4C59600BAA47D /* Debug */,
+				412F912C14C4C59600BAA47D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 412F90E614C4C59500BAA47D /* Project object */;
+}
