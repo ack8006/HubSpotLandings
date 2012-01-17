@@ -22,6 +22,7 @@
     [window addSubview:viewController.view];
 
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
