@@ -10,10 +10,12 @@
 
 @class HubSpotLandingsViewController;
 
-@interface HubSpotLandingsAppDelegate : NSObject <UIApplicationDelegate>
+@interface HubSpotLandingsAppDelegate : NSObject <UIApplicationDelegate>{
+    UIWindow *window;
+    HubSpotLandingsViewController *viewController;
+}
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-
 @property (nonatomic, retain) IBOutlet HubSpotLandingsViewController *viewController;
 
 @end
